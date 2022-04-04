@@ -1,0 +1,67 @@
+/* @import url('http://db.onlinewebfonts.com/c/aef726001a07788d4c639a835fa10360?family=FF+Tisa'); */
+/* @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* @import url('(https://fonts.googleapis.com/css2?family=Manuale:ital,wght@0,400;0,600;1,400;1,600&display=swap'); */
+/* @import url('http://db.onlinewebfonts.com/c/eeb2719d248b27841be5f4899986eedc?family=Sentinel+Book');*/
+/* @import url('https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@0,400;0,700;1,400;1,700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+padding-bottom: 64px;
+}
+a:visited {
+color: #d33bf0;
+}
+a:link, a:link:hover, a:link:active, a:link * {
+color: #0095dd;
+}
+a:link {
+text-decoration: none;
+font-weight: normal;
+font-style: italic;
+border-bottom: 1px dotted gray;
+}
+pre {
+white-space: pre-wrap;
+}
+pre code {
+background-color: #eff0f1;
+color: #393318;
+font-family: monospace;
+display: block;
+padding: 5px 10px;
+}
+body[data-mode="dark"] pre code {
+background-color: #585858;
+color: #e8e8e8;
+}
+
+/* CSS for sans-serif fonts */
+body[data-font=sans-serif] {}
+/* CSS for serif fonts */
+body[data-font=serif] {}
+
+/* CSS for "sepia" theme */
+body[data-mode=sepia] {
+}
+/* CSS for "light" theme */
+body[data-mode=light] {}
+/* CSS for "dark" theme */
+body[data-mode=dark] {}
+
+body,p,li {
+/* font-family: Constantia; */
+/* font-family: FF+Tisa; */
+/* font-family: 'IBM Plex Serif', serif; */
+/* font-family: 'Ibarra Real Nova', serif; */
+/* font-family:"Sentinel Book"; */
+/* font-family: 'Manuale', serif; */
+/* font-family: 'Brygada 1918', serif; */
+
+font-family: 'Besley', serif;
+line-height: 170%;
+font-size: 20px;
+text-align: left;
+}
+
+h1,h2,h3,h4 {font-family: sans-serif;}
